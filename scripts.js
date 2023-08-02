@@ -9,12 +9,12 @@ const subtractHandler = () => {
     const newValue = parseInt(number.value) -1
     number.value = newValue
 
-    if (add.disable = true) {
-        add.disable = false
+    if (add.disabled = true) {
+        add.disabled = false
     }
 
     if (newValue <= MIN_NUMBER) {
-        subtract.disable = true
+        subtract.disabled = true
     } 
 }
 
@@ -22,12 +22,12 @@ const addHandler = () => {
     const newValue = parseInt(number.value) +1
     number.value = newValue
 
-    if (subtract.disable = true) {
-        subtract.disable = false
+    if (subtract.disabled = true) {
+        subtract.disabled = false
     }
 
     if (newValue >= MAX_NUMBER) {
-        add.disable = true
+        add.disabled = true
     } 
 }
 
