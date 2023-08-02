@@ -47,7 +47,7 @@ body {
     color: var(--color-white);
     background: none;
     border-width: 0;
-    border-bottom: 1px, solid, var(--color-light-grey);
+    border-bottom: 1px solid var(--color-light-grey);
 
 }
 
@@ -58,8 +58,13 @@ body {
     color: var(--color-light-grey);
     font-size: 3rem;
     height: 10rem;
+    border-bottom: 1px solid var(--color-light-grey);
 
 
+}
+
+.counter_button:active {
+    background: var(--color-medium-grey);
 }
 
 .counter_actions {
@@ -67,7 +72,7 @@ body {
 }
 
 .counter_button_first {
-    border-right: 1px, solid, var(--color-light-grey);
+    border-right: 1px solid var(--color-light-grey);
 }
 
 /* footer */
@@ -77,5 +82,5 @@ body {
 }
 
 .footer_link {
-    
+    color: var(--color-white);
 }
